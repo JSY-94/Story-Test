@@ -16,7 +16,7 @@
 
     <!-- 播放器 -->
     <audio controls>
-        <source src="https://raw.githubusercontent.com/JSY-94/Story-Test/main/test-audio.mp3" type="audio/mpeg">
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
         您的浏览器不支持音频播放。
     </audio>
 
