@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>家庭故事站 - 在线测试</title>
+    <style>
+        body { font-family: -apple-system, system-ui, sans-serif; padding: 40px 20px; text-align: center; max-width: 500px; margin: 0 auto; }
+        audio { width: 100%; margin: 30px 0; }
+        .box { background: #f8f9fa; padding: 25px; border-radius: 16px; margin-top: 30px; text-align: left; }
+        code { background: #e9ecef; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <h2>🎵 在线播放测试成功！</h2>
+    <p>如果你能听到钢琴曲，说明<strong style="color: green;">网页托管与在线音频播放</strong>两大核心功能已完全正常。</p>
+
+    <!-- 播放器 -->
+    <audio controls>
+        <source src="https://raw.githubusercontent.com/your-demo-helper/audio-samples/main/sample-piano.mp3" type="audio/mpeg">
+        您的浏览器不支持音频播放。
+    </audio>
+
+    <div class="box">
+        <h3>📡 如何连接小米音箱？</h3>
+        <ol>
+            <li>点击上方播放按钮，确认手机出声。</li>
+            <li>在播放时，<strong>下滑打开手机控制中心</strong>。</li>
+            <li>点击 <strong>音频输出图标 ⎗</strong>，选择你的<strong>小米音箱</strong>。</li>
+        </ol>
+    </div>
+
+    <div class="box">
+        <h3>🚀 下一步：制作你自己的故事页</h3>
+        <p>测试成功后，你只需：
+        <ol>
+            <li>将代码中 <code>src="..."</code> 的链接，换成你从<strong>阿里云OSS</strong>获得的真实故事直链。</li>
+            <li>将本页面代码中的标题、说明文字进行修改。</li>
+            <li>再次提交，你的专属故事站就上线了。</li>
+        </ol>
+        </p>
+    </div>
+</body>
+</html>
